@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplayer Hangman!</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+
+
+
+</head>
+<body>
+<div class="container">
+	<header>ROCK, PAPER, SCISSORS!</header>
+	<div id="Player_Information_Here">
+		<input type="text" id="Player_Name" placeholder="Name"><button id="Start_Button">Start</button>
+	</div>
+	<div id="Game_Display" style=" display: block;">
+		<div id="Player_1_Choice" style="width:25%;">
+			<div id="Player1">PLayer 1</div>
+			<div class="Player_1_Choices">ROCK</div>
+			<div class="Player_1_Choices">PAPER</div>
+			<div class="Player_1_Choices">SCISSORS</div>
+		</div>
+		<div id="Game_Information" style="width:25%;"></div>
+		<div id="Player_2_Choice" style="width:25%;">
+			<div id="Player2">Player 2</div>
+			<div class="Player_2_Choices">ROCK</div>
+			<div class="Player_2_Choices">PAPER</div>
+			<div class="Player_2_Choices">SCISSORS</div>
+		</div>
+	</div>
+	<div id="Chat_Screen_Here">
+	</div>
+	<div>
+		<input type="text" id="Chat_Text" placeholder="Type Your Message Here"><button id="Chat_Submit_Button">Send</button>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+
+
+<script type="text/javascript">
+	
+
+
+
+</script>
+</body>
+</html>
